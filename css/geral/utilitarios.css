@@ -1,0 +1,29 @@
+/*BOTÃO*/
+
+a{
+  color: var(--cor-texto);
+  font-size: 16px;
+  text-decoration: none;
+}
+
+button{
+  padding: 12px 20px;
+  width: auto;          /*largura conforme o texto + padding*/
+  flex-shrink: 0;       /*impede que o flex esprema o botão*/
+  white-space: nowrap; /*mantém o texto em uma linha*/
+  font-family: "Syne", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  border: 0;
+  border-radius: 4px;
+  color: var(--cor-destaque);
+  background-color: var(--cor-superficie);
+}
+
+button:hover{
+  color: var(--cor-superficie);
+  background-color: var(--cor-destaque);
+  transition: 0.5s;
+}
+

@@ -1,0 +1,63 @@
+/*FONTES GOOGLE -- TO USANDO DIRETO NA CLASSE DA TAG NO HTML*/
+.syne-google-font {
+  font-family: "Syne", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.inter-google-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*ESTILO DOS TEXTOS*/
+
+h1{
+  font-size: clamp(2rem, -1.125rem + 10vw, 4.5rem);
+  text-transform: uppercase;
+  color: var(--cor-texto);
+}
+
+h2{
+  font-size: clamp(1.25rem, 1rem + 0.5vw, 1.5rem);
+}
+
+h3{
+  font-size: clamp(1.125rem, 1rem + 0.25vw, 1.25rem);
+  text-transform: uppercase;
+  color: var(--cor-texto);
+}
+
+p, li, input{
+  font-size: clamp(1rem, 0.875rem + 0.25vw, 1.125rem);
+  color: var(--cor-texto);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 300;
+  font-family: "Syne", sans-serif;
+}
+
+h1, h2, h3, h4, p, ul, li{
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  list-style-type: none;
+}
+
+input{
+  font-size: 15px;
+}
+
+input{
+  background-color: var(--cor-hover-texto);
+  padding: 8px 15px;
+  border: 0;
+  border-radius: 99px;
+  color: var(--cor-texto);
+  width: 30%;
+}

@@ -1,0 +1,13 @@
+:root{
+  --cor-fundo: #e1e1e1;
+  --cor-superficie: #ededed;
+  --cor-superficie-escura: #202020;
+  --cor-fundo-secundario: #525252;
+
+  --cor-texto: #111111;
+  --cor-texto-invertido: #fff;
+
+  --cor-destaque: #b51f28;
+  --cor-destaque-hover: #951923;
+  --cor-hover-texto: #b5b5b5;
+}

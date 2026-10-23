@@ -1,0 +1,96 @@
+.banner{
+  background-image: url("/imgs/imgbanner.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+}
+
+/*DIV SUPERIOR*/
+
+.banner-box-1{
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.banner-box-1 h2{
+  text-align: center;
+}
+
+.banner-box-1 h2:first-child{
+  text-align: start;
+}
+
+.banner-box-1 h2:last-child{
+  text-align: end;
+}
+
+/*DIV INFERIOR*/
+
+.banner-box-2{
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  align-items: center;
+  gap: 20px;
+}
+
+/*Esquerda: espaço vazio*/
+.vazio{
+  color: transparent;
+}
+
+/*Centro: título*/
+.banner h1{
+  color: var(--cor-destaque-hover);
+}
+
+/*Direita: Confira*/
+.banner-box-2 > :last-child{
+  justify-self: end; /*mantém o Confira à direita, sem esticar*/
+}
+
+.banner-box-2 a{
+  align-items: center;
+  text-align: end;
+}
+
+@media (max-width: 1260px){
+  .vazio{
+    display: none;
+  }
+  .banner-box-2{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 934px){
+  .banner-box-2{
+    grid-template-columns: minmax(0, 1fr);
+    gap: 10px;
+  }
+  .banner h1{
+    text-align: start;
+  }
+}
+
+@media (max-width: 560px){
+  .banner{
+    min-height: 700px;
+    padding-top: 50px;
+  }
+
+  .banner h1{
+    color: var(--cor-texto);
+    font-size: 38px;
+    text-align: center;
+  }
+
+  .banner-box-1{
+    display: none;
+  }
+
+  .banner-box-2 > :last-child{
+    justify-self: center;
+  }
+}
+

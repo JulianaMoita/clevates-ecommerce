@@ -1,0 +1,63 @@
+.menu{
+  background-color: var(--cor-fundo-secundario);
+
+  align-items: center; /*modificado de flex-horizontal*/
+  justify-content: space-between;
+
+  flex-wrap: wrap;
+
+  padding: 10px 20px; /*alterei top e bottom mas mantive left e right pra continuar seguindo o alinhamento do container*/
+}
+
+.menu button{
+  background-color: transparent;
+  color: var(--cor-texto);
+}
+
+.menu button:hover{
+  color: var(--cor-texto-invertido);
+}
+
+/*RESPONSIVO*/
+
+@media (max-width: 934px){
+  .menu{
+    padding: 0 0 10px 0;
+    gap: 10px;
+  }
+  .menu ul{
+    width: 100%;
+    background-color: var(--cor-superficie-escura);
+  }
+  .menu li{
+    color: var(--cor-texto-invertido);
+  }
+  .menu input{
+    margin-left: 10px;
+  }
+  .menu button{
+    margin-right: 10px;
+  }
+
+}
+
+@media (max-width: 768px){
+  .menu input{
+    width: 40%;
+  }
+}
+
+@media (max-width: 480px){
+  .menu input{
+    width: 100%;
+    margin-right: 10px;
+  }
+  .menu button{
+    width: 95%;
+    background-color: var(--cor-destaque);
+    border-radius: 99px;
+    margin-left: 10px;
+    padding: 8px 15px;
+
+  }
+}

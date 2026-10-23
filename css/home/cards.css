@@ -23,19 +23,19 @@
 }
 
 .camisetas{
-  background-image: url(/imgs/camisetas.png);
+  background-image: url("../../imgs/camisetas.png");
 }
 
 .bermudas{
-  background-image: url(/imgs/bermuda.png);
+  background-image: url("../../imgs/bermuda.png");
 }
 
 .moletom{
-  background-image: url(/imgs/moletom.png);
+  background-image: url("../../imgs/moletom.png");
 }
 
 .social{
-  background-image: url(/imgs/social.png);
+  background-image: url("../../imgs/social.png");
 }
 
 .card-categoria h3{

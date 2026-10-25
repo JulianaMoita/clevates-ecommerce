@@ -12,13 +12,13 @@
   padding: 40px;
   gap: 30px;
 
-  background-image: url(/imgs/3bg-banner-sale.png);
+  background-image: url("../../imgs/3bg-banner-sale.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.sale-conteudo h1, p{
+.sale-conteudo h1{
   margin: 0;
   color: var(--cor-texto-invertido);
 }
@@ -34,11 +34,12 @@
 
 .sale-conteudo p{
   margin-bottom: 10px;
+  color: var(--cor-texto-invertido);
 }
 
 
 .sale-imagem{
-  background-image: url(/imgs/2img-banner-sale.png);
+  background-image: url("../../imgs/2img-banner-sale.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

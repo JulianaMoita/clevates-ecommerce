@@ -16,7 +16,7 @@
 /*ESTILO DOS TEXTOS*/
 
 h1{
-  font-size: clamp(2rem, -1.125rem + 10vw, 4.5rem);
+  font-size: clamp(2rem, 0.9286rem + 4.0816vw, 4.5rem);
   text-transform: uppercase;
   color: var(--cor-texto);
 }

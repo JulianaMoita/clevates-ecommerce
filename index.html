@@ -19,12 +19,12 @@
 
   <nav class="container flex-horizontal menu">
     <ul class="flex-horizontal">
-      <li>Home</li>
-      <li>Lançamento</li>
-      <li>Sale</li>
+      <a href="/index.html"><li>Home</li></a>
+      <a href="#lancamentos"><li>Lancamentos</li></a>
+      <a href="#sale"><li>Sale</li></a>
     </ul>
     <input id="busca" type="text" placeholder="Pesquisar">
-    <button>Cadastre-se</button>
+    <button id="contato">Cadastre-se</button>
   </nav>
 
   <section class="container flex-vertical banner">
@@ -66,7 +66,7 @@
     </div>
   </section>
 
-  <section class="container flex-vertical cards">
+  <section id="lancamentos" class="container flex-vertical cards">
     <h1 class="syne-google-font">Lançamentos</h1>
     <div class="grid-cards">
       <div class="flex-vertical produto-card">
@@ -132,6 +132,20 @@
         <h3 class="syne-google-font">Bermuda 1</h3>
         <h4 class="syne-google-font">R$ 249.9</h4>
         <button>Comprar</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="sale" class="container cards">
+    <div class="grid-cards sale">
+      <div class="flex-vertical sale-conteudo">
+        <h4 class="inter-google-font">Old Season</h4>
+        <h1 class="syne-google-font">Sale Street</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </p>
+        <button>Conferir Promoções</button>
+      </div>
+      <div class="sale-imagem">
       </div>
     </div>
   </section>
